@@ -1,0 +1,78 @@
+
+@media only screen and (max-width: 600px) {
+    header nav ul li > a {
+        color:rgb(0, 0, 0);
+        font-weight: lighter;
+        font-size:16px;
+        transition:linear 200ms ;
+        
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul li > button a {
+        color:rgb(0, 0, 0);
+        font-weight: lighter;
+        font-size:16px;
+        transition:linear 200ms ;
+        
+    }
+    .hero-section-container {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-section {
+        padding: 65px 40px 40px 50px;
+        color: white;
+        font-size: larger;
+    }
+    .project {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+
+    .project-section, .certificate-section {
+        padding: 40px;
+    }
+
+    .project-text-wrapper {
+        display: grid;
+        padding-right: 200px;
+    }
+
+    .title-project-head h2{
+        font-size: 20px;
+        width: 200px;
+
+    }
+    .title-project-head p{
+        font-size: 15px;
+        width: 200px;
+
+    }
+    .github a{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .certificate {
+        display: grid;
+        grid-template-columns: auto ;
+    }
+
+    .tech {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .socials {
+        display: grid;
+    }
+}

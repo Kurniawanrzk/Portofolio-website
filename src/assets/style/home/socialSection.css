@@ -1,0 +1,28 @@
+.social-section-container {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../img/BgSocialImage.jpg");
+}
+
+.title-social {
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    font-size: larger;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
