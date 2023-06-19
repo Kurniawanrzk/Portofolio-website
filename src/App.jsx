@@ -23,6 +23,7 @@ function App() {
     meta.setAttribute('name', 'description');
     meta.setAttribute('content', description);
     document.getElementsByTagName('head')[0].appendChild(meta);
+    
   } ,[])
 
   return (
