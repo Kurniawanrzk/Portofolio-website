@@ -49,7 +49,7 @@ export default function Home() {
       <div
       className="footer"
       >
-          <p>Created By Kurnaiwan Rizki Trinanta Sembiring Himself.</p>
+          <p>Created By Kurniawan Rizki Trinanta Sembiring Himself.</p>
       </div>
     </>
   );
