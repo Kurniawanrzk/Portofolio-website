@@ -29,7 +29,7 @@ export default function HeroSection() {
                 <h1 
                 style={ForHeading}>
                     Kurniawan Rizki Trinanta<br /> Sembiring</h1>
-                <p style={ForLead}>Programming Enthusisat, Fullstack-dev junior, Competitive programming</p>
+                <p style={ForLead}>Coding Enthusisat, Web Developer, Competitive programming</p>
                 <a href="#projects"><button style={HeroSectionBtn}>Click For More</button></a>
             </div>
         </div>
