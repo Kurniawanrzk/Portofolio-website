@@ -4,19 +4,17 @@ import TokenSaverApp from '../assets/img/TokenSaverApp.gif'
 import ForcastPosterMakerApp from '../assets/img/ForcastPosterMakerApp.gif'
 import LocalFileManager from '../assets/img/LocalFileManager.gif'
 import SurveyBarangKelasApp from '../assets/img/SurveyBarangKelasApp.gif'
-import { useState } from 'react'
+import Loading from '../assets/img/loading.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export default function ProjectSection() {
     
-    const [StatusImage, SetStatusImage] = useState();
       
     const ProjectDescTextStyle = {
         color:"black",
         fontWeight:"lighter"
     }
    
-    console.log(StatusImage)
     
     return(
         <>
@@ -53,7 +51,7 @@ export default function ProjectSection() {
                                data-aos-easing="ease-in-out"
                            className="project-item"> 
                            <a href="https://github.com/BMKGKOTIM/peringatanDiniKotim"></a>
-                                <LazyLoadImage effect='blur' src={PeringatanDiniApp} onLoad={() => SetStatusImage(1)} /> 
+                                <LazyLoadImage width={300} height={170} placeholderSrc={Loading} effect='blur' src={PeringatanDiniApp} /> 
                                 <figcaption>
                                     <center>
                                     <p>Weather Warning Estimation</p>
@@ -66,7 +64,7 @@ export default function ProjectSection() {
                                 data-aos-easing="ease-in-out"
                             className="project-item"> 
                             <a href="https://github.com/Kurniawanrzk/tempt-convertion"></a>
-                                <LazyLoadImage effect='blur' src={TemptConvApp }  onLoad={() => SetStatusImage(2)} />   
+                                <LazyLoadImage width={300} height={170} placeholderSrc={Loading} effect='blur' src={TemptConvApp} />   
                                 <figcaption>
                                     <center>
                                     <p>Temprature Convertion App</p>
@@ -79,7 +77,7 @@ export default function ProjectSection() {
                                 data-aos-easing="ease-in-out"
                             className="project-item"> 
                             <a href='https://github.com/Kurniawanrzk/survey-website'></a>
-                                <LazyLoadImage effect='blur' src={SurveyBarangKelasApp} onLoad={() => SetStatusImage(3)}/>   
+                                <LazyLoadImage width={300} height={170} placeholderSrc={Loading} effect='blur' src={SurveyBarangKelasApp}/>   
                                 <figcaption>
                                     <center>
                                     <p>Survey Barang Kelas</p>
@@ -92,7 +90,7 @@ export default function ProjectSection() {
                              data-aos-easing="ease-in-out"
                             className="project-item"> 
                             <a href="https://github.com/Kurniawanrzk/token-saver"></a>
-                                <LazyLoadImage effect='blur' src={TokenSaverApp} onLoad={() => SetStatusImage(4)} />   
+                                <LazyLoadImage width={300} height={170} placeholderSrc={Loading} effect='blur' src={TokenSaverApp} />   
                                 <figcaption>
                                     <center>
                                     <p>Token Saver App</p>
@@ -105,7 +103,7 @@ export default function ProjectSection() {
                              data-aos-easing="ease-in-out"
                             className="project-item"> 
                             <a href="https://github.com/BMKGKOTIM/forecastkecamatan"></a>
-                                <LazyLoadImage effect='blur' src={ForcastPosterMakerApp} onLoad={() => SetStatusImage(5)} />   
+                                <LazyLoadImage width={300} height={170} placeholderSrc={Loading} effect='blur' src={ForcastPosterMakerApp} />   
                                 <figcaption>
                                     <center>
                                     <p>Forecast Poster Maker App</p>
@@ -118,7 +116,7 @@ export default function ProjectSection() {
                              data-aos-easing="ease-in-out"
                             className="project-item"> 
                             <a href="https://github.com/Kurniawanrzk/LocalFileManager" ></a>
-                                <LazyLoadImage effect='blur' src={LocalFileManager} onLoad={() => SetStatusImage(6)} />   
+                                <LazyLoadImage width={300} height={170} placeholderSrc={Loading} effect='blur' src={LocalFileManager} />   
                                 <figcaption>
                                     <center>
                                     <p>Local File Manager</p>
