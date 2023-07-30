@@ -28,7 +28,7 @@ export default function SocialSection() {
                 data-aos="fade-up"
                 data-aos-duration="900"
                 data-aos-easing="ease-in-out"
-                href='https://www.instagram.com/nesccaafe/'><img src={ig} width={"100"}  alt='ig-social' /></a>
+                href='https://www.instagram.com/trinantaasembiring/'><img src={ig} width={"100"}  alt='ig-social' /></a>
                 <a
                 data-aos="fade-up"
                 data-aos-duration="1100"
